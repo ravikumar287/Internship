@@ -1,0 +1,41 @@
+port 20,21 - FTP (File Transfer Protocol) - TCP Protocol
+Risks -
+1. Cleartext credentials
+2. Anonymous access
+3. Vulnerable to brute-force, MiTM
+
+port 22 - SSH (Secure Shell) - TCP Protocol
+Risks -
+1. Brute-force attacks
+2. Weak key management
+3. Unpateched SSH versions
+
+port 23 - Telnet - TCP Protocol 
+Risks - 
+1. Transmits data in plaintext
+2. Deprecated protocol
+3. Easy target for sniffing
+
+port 53 - DNS (Domain Name System) - TCP/UDP Protocol
+Risks -
+1. DNS amplification attacks
+2. DNS spoofing
+3. Cache poisoning
+
+port 80 - HTTP (Hypertext Transfer Protocol) - TCP Protocol
+Risks -
+1. Unencrypted communication
+2. Susceptile to XSS, CSRF, SQLi
+
+port 139 - NetBIOS Session Service - TCP Protocol
+Risks -
+1. Information Disclosure
+2. SMB Vulnerabilities
+3. Remtoe Code Execution
+
+port 445 - Direct SMB (Server Message Block) communication over TCP/IP
+Risks -
+1. Wormable Vulnerabilites (EternalBlue , exploiteb in WannaCry, NotPetya, SMBGhost)
+2. Unauthorized File Access
+3. Lateral Movement
+4. Sensitive Info Exposure
